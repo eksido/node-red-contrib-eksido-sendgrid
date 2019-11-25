@@ -1,0 +1,35 @@
+{
+  "name": "node-red-contrib-eksido-sendgrid",
+  "version": "0.1.0",
+  "description": "Sending e-mail node using SendGrid service",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eksido/node-red-contrib-eksido-sendgrid.git"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "*"
+  },
+  "node-red": {
+    "nodes": {
+      "sendgrid": "node.js",
+      "sendgrid-trigger": "sendgrid-transactional.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "sendgrid",
+    "mail",
+    "email",
+    "e-mail"
+  ],
+  "author": "Franz Malten Buemann <fmb@eksido.com> (https://eksido.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eksido/node-red-contrib-eksido-sendgrid/issues"
+  },
+  "homepage": "https://github.com/eksido/node-red-contrib-eksido-sendgrid#readme"
+}
